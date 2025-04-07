@@ -19,15 +19,12 @@ In version V.3 of the SDK, you can implement custom commands by utilizing the `Q
 
 ```csharp
 using QFSW.QC;
-using UnityEngine;
+...
 
-public class MyCommands : MonoBehaviour
+[Command]
+public static int Add(int a, int b)
 {
-    [Command]
-    public void MyCustomCommand()
-    {
-        // Your command logic here
-    }
+    return a + b;
 }
 ```
 
