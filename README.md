@@ -11,7 +11,7 @@ After installing the necessary components, download the Unity package. Open the 
 
 ---
 
-## Creating Custom Commands in Version V.3
+## Creating Custom Commands in Version V.1.2
 
 In version V.3 of the SDK, you can implement custom commands by utilizing the `QFSW.QC` namespace in your code. To make your commands accessible through the console, use the `[Command]` attribute to annotate your method. This will allow for dynamic modification of commands during gameplay.
 
